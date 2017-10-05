@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiple-test-assemblies", "multiple-test-assemblies\multiple-test-assemblies.csproj", "{2E490098-9DCB-4E92-AC2E-D1559F7C4A90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestAssembly", "1\MyTestAssembly.csproj", "{2E490098-9DCB-4E92-AC2E-D1559F7C4A90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnotherOne", "AnotherOne", "{D7D3C7B2-A324-48E6-BAB8-3859A9D3A3DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestAssembly", "2\MyTestAssembly.csproj", "{5E2CAF44-D8E0-4A40-8376-3C681E1C4F30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,18 @@ Global
 		{2E490098-9DCB-4E92-AC2E-D1559F7C4A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E490098-9DCB-4E92-AC2E-D1559F7C4A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E490098-9DCB-4E92-AC2E-D1559F7C4A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2CAF44-D8E0-4A40-8376-3C681E1C4F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2CAF44-D8E0-4A40-8376-3C681E1C4F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2CAF44-D8E0-4A40-8376-3C681E1C4F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2CAF44-D8E0-4A40-8376-3C681E1C4F30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E2CAF44-D8E0-4A40-8376-3C681E1C4F30} = {D7D3C7B2-A324-48E6-BAB8-3859A9D3A3DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD792834-3355-43AD-90AA-801BD0471632}
 	EndGlobalSection
 EndGlobal

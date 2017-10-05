@@ -9,6 +9,7 @@ namespace multiple_test_assemblies
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.IsTrue(1 == 1);
         }
     }
 }
