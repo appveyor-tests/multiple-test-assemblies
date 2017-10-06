@@ -17,7 +17,7 @@ Write-host "Tests expected $testsExpected"
 Write-host "Tests actual $testActual"
 
 if ($testActual -ne $testsExpected) {
-    Write-Error "Tests expected $testsExpected, actual $b.build.jobs[0].testsCount"
+    Write-Error "Tests expected $testsExpected, actual $testActual"
     throw
 }
 else {
