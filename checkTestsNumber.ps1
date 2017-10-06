@@ -18,6 +18,6 @@ if ($testActual -ne $testsExpected) {
     throw
 }
 else {
-Write-host "Tests expected $testsExpected, actual $testActual" -foregroundcolor Green
+Write-host "Tests expected $testsExpected, actual $($testActual)" -foregroundcolor Green
 return
 }
