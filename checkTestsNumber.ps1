@@ -13,6 +13,9 @@ if ($testActual -gt 0) {break}
 sleep 3
 }
 
+Write-hosts "Tests expected $testsExpected"
+Write-hosts "Tests actual $testActual"
+
 if ($testActual -ne $testsExpected) {
     Write-Error "Tests expected $testsExpected, actual $b.build.jobs[0].testsCount"
     throw
