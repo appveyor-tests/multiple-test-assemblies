@@ -13,9 +13,6 @@ if ($testActual -gt 0) {break}
 sleep 3
 }
 
-Write-host "Tests expected $testsExpected"
-Write-host "Tests actual $testActual"
-
 if ($testActual -ne $testsExpected) {
     Write-Error "Tests expected $testsExpected, actual $testActual"
     throw
